@@ -142,6 +142,7 @@
   .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+    padding-bottom: 100px;
   }
   .intro .intro-body .brand-heading {
     font-size: 40px;
@@ -226,7 +227,7 @@
     }
   }
   .content-section {
-    padding-top: 100px;
+    padding-top: 60px;
   }
   .download-section {
     width: 100%;
@@ -246,14 +247,10 @@
   }
   @media (min-width: 767px) {
     .content-section {
-      padding-top: 100px;
+      padding-top: 60px;
     }
     .download-section {
       padding: 50px 0;
-    }
-    #map {
-      height: 400px;
-      margin-top: 250px;
     }
   }
   .btn {
